@@ -1,0 +1,33 @@
+body {
+    background-color:#fca6c9;
+    text-align: center;
+    font-family: sans-serif;
+}
+/* education/Because...pure */
+h1 {
+    text-align: center;
+    color: white;
+    
+    border:4px solid steelblue;
+}
+main h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border:4px solid yellow;
+}
+/* edu...them*/
+main p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border:4px solid yellowgreen;
+}
+/*pre..1.2.3.4.*/
+h3{
+    
+    text-align: center;
+    border:4px solid paleturquoise;
+}
+footer p{
+    border:4px solid gray;
+}
