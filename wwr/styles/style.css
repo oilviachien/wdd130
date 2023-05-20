@@ -2,14 +2,36 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
+body{
+    background-color: #fcfbfb;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: darkgreen;
+}
+
 .logo {
     width:80px;
+}
+#logo_link{
+    padding-top: 5px;
 }
 
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: pink;
+    color: yellow;
 }
 
 #hero-img{
@@ -27,44 +49,29 @@ nav a {
     text-align: center;
 }
 
+.home-title {
+    color: darkgreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: darkgreen;
+}
+
 .button-box {
     text-align: center;
 }
 
-main section {
-    text-align: center;
-}
-
-#background{
-    height: 725px;
-    background-color: rgb(109, 174, 109);
-}
-body{
-    background-color: #fcfbfb;
-}
-header{
-    background-color: darkgreen;
-}
-nav a:hover{
-    background-color: pink;
-    color: yellow;
-}
-.home-title {
-    color: darkgreen;
-}
-h4 {
-    color: darkgreen;
-}
 .book {
     background-color: pink; 
     color: darkgreen;
     text-decoration: none;
-}
-
-.join{
-    background-color: pink;
-    color: darkgreen;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -72,24 +79,61 @@ h4 {
     color: yellow;
 }
 
+main section {
+    text-align: center;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+h2{
+    margin: 0;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+#background{
+    height: 725px;
+    background-color: rgb(109, 174, 109);
+}
+
+.join{
+    background-color: pink;
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
 .join:hover{
     background-color: navy;
     color: yellow;
 }
 
-.msg{
-    background-color: darkgreen;
-}
-.msg h2 {
-    color: white;
-}
-.msg p {
-    color: white;
-}
-
 footer{
     background-color: darkgreen;
     color:white;
+    padding:25px 50px;
+    margin-top: 200px;
+}
+
+footer p {
+    font-size: 1.2em;
 }
 
 footer a {
@@ -102,10 +146,26 @@ footer a:hover {
     text-decoration: underline;
 }
 
-footer p {
-    font-size: 1.2em;
+footer .social img{
+    padding-top: 15px;
+}
+
+.msg{
+    background-color: darkgreen;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.msg p {
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .icon {
     width:80px;
+    padding-top: 10px;
 }

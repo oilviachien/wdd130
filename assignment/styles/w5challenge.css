@@ -1,0 +1,29 @@
+#biggray{
+    max-width: 1600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #737373 ;
+}
+
+#desk{
+    width: 20em;
+    border-color: #737373;
+    border: 60px;
+    border-radius: 50%;
+}
+
+#graph{
+    width: 20em;
+    border: 25px;
+    border-radius: 50%;
+}
+
+#person{
+    width: 20em;
+    border: 25px;
+    border-radius: 50%;
+}
