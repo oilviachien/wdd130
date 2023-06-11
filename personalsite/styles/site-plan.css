@@ -157,6 +157,12 @@ nav a:hover {
   line-height: 3em;
 }
 
+.sm-page4 {
+  grid-area: page4;
+  background-color: #ccc;
+  line-height: 3em;
+}
+
 .top {
   grid-area: top;
   border-left: 1px solid;
