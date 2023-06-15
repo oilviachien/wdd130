@@ -1,0 +1,36 @@
+#image{
+    width: 100%;
+    display: block;
+}
+
+main{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h4{
+    color: navy;
+    margin-top: 40px;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: gray;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+p{
+    color: white;
+    background-color: darkblue;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}

@@ -232,6 +232,112 @@ footer .social img{
     padding-top: 10px;
 }
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#background1{
+    height: 725px;
+    background-color: #DCE2C8;
+    grid-column: 1/8;
+    grid-row:1/5 ;
+}
+
+#background2{
+    height: 725px;
+    background-color:rgb(109, 174, 109);
+    grid-column: 1/8;
+    grid-row:5/9 ;
+}
+
+#background3{
+    height: 725px;
+    background-color:#DCE2C8;
+    grid-column: 1/8;
+    grid-row: 9/13;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.rivers1 {
+    width: 100%;
+    grid-column: 5/9;
+    grid-row: 2/4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.rivers2 {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 6/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.rivers3 {
+    width: 100%;
+    grid-column: 5/9;
+    grid-row: 10/12;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.describe1{
+    background-color: rgb(109, 174, 109);
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/5;
+    grid-row: 2/4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.describe2{
+    background-color: #DCE2C8;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 4/9;
+    grid-row: 6/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.describe3{
+    background-color: rgb(109, 174, 109);
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/5;
+    grid-row: 10/12;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.describe1 h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.describe1 p {
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+.describe2 h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.describe2 p {
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+.describe3 h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.describe3 p {
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
