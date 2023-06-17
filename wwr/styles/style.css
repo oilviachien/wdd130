@@ -248,7 +248,7 @@ footer .social img{
     height: 725px;
     background-color:rgb(109, 174, 109);
     grid-column: 1/8;
-    grid-row:5/9 ;
+    grid-row:5/8 ;
 }
 
 #background3{
@@ -319,11 +319,11 @@ main section img{
     padding-bottom: 15px;
 }
 .describe2 h2 {
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 .describe2 p {
-    color: white;
+    color: black;
     font-size: 0.8em;
     padding-bottom: 15px;
 }
