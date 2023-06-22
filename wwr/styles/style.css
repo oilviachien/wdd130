@@ -338,6 +338,74 @@ main section img{
     padding-bottom: 15px;
 }
 
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+
+  input[type="submit"]:active {
+    background-color: #3e8e41;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
