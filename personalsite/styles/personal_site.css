@@ -311,6 +311,12 @@ footer .social img{
 
 .t-food-1 p{
     margin: 10px;
+    margin-left: 100px;
+    text-align: start
+}
+
+.t-food-1{
+    text-align: center;
 }
 
 #t-noodle-video{
@@ -326,6 +332,12 @@ footer .social img{
 
 .t-food-2 p{
     margin: 10px;
+    margin-left: 60px;
+    text-align: start
+}
+
+.t-food-2 h4{
+    text-align: center;
 }
 #t-snake-video{
     grid-column: 1/2;
@@ -339,6 +351,133 @@ footer .social img{
 }
 
 .t-food-3 p{
+    margin: 10px; 
+    margin-bottom: 10px;
+    margin-left: 100px;
+    text-align: start
+}
+
+.t-food-3{
+    text-align: center;
+}
+
+.japanes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1E555C;
+    align-content: center;
+}
+
+#j-rice-video{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    margin-left: 20px;
+}
+
+.j-food-1 {
+    grid-column: 2/3;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.j-food-1 p{
+    margin: 10px;
+    text-align: start;
+}
+
+.j-food-1 h4{
+    text-align: center;
+}
+
+#j-noodle-video{
+    grid-column: 2/3;
+    grid-row: 5/10;
+}
+
+.j-food-2 {
+    grid-column: 1/2;
+    grid-row: 5/10;
+    margin-top: 10px;
+}
+
+.j-food-2 p{
+    margin: 10px;
+    margin-left: 60px;
+    text-align: start;
+}
+
+.j-food-2 h4{
+    text-align: center;
+}
+#j-snake-video{
+    grid-column: 1/2;
+    grid-row: 11/15;
+}
+
+.j-food-3 {
+    grid-column: 2/3;
+    grid-row: 10/15;
+    margin-top: 80px;
+}
+
+.j-food-3 p{
+    margin: 10px; 
+    text-align: start;
+}
+
+.j-food-3 h4{
+    text-align: center;
+}
+
+.korean-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1E555C;
+    align-content: center;
+}
+
+#k-rice-video{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    margin-left: 20px;
+}
+
+.k-food-1 {
+    grid-column: 2/3;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.k-food-1 p{
+    margin: 10px;
+}
+
+#k-noodle-video{
+    grid-column: 2/3;
+    grid-row: 5/10;
+}
+
+.k-food-2 {
+    grid-column: 1/2;
+    grid-row: 5/10;
+    margin-top: 10px;
+}
+
+.k-food-2 p{
+    margin: 10px;
+}
+#k-snake-video{
+    grid-column: 1/2;
+    grid-row: 11/15;
+}
+
+.k-food-3 {
+    grid-column: 2/3;
+    grid-row: 10/15;
+    margin-top: 80px;
+}
+
+.k-food-3 p{
     margin: 10px; 
 }
 
@@ -383,6 +522,14 @@ footer .social img{
         margin-top: 25px;
     }
     #hero, .taiwanese-grid {
+        display: block;
+        height: auto;
+    }
+    #hero, .japanes-grid {
+        display: block;
+        height: auto;
+    }
+    #hero, .korean-grid {
         display: block;
         height: auto;
     }
